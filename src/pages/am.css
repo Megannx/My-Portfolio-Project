@@ -1,0 +1,46 @@
+.about-me {
+    padding: 60px; /* Increased padding */
+    font-family: 'Arial', sans-serif; 
+    background-color: #5f9ea0; 
+    border-radius: 10px; /* Increased border radius */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Increased shadow */
+    max-width: 700px; /* Wider for better readability */
+    margin: 30px auto; /* Increased margins */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px; /* More space below heading */
+    font-size: 2.5em; /* Larger font size */
+    color: #2c3e50; 
+    border-bottom: 2px solid #3642b3; 
+    padding-bottom: 15px; /* More space below underline */
+}
+
+p {
+    margin-bottom: 30px; /* Increased space between paragraphs */
+    line-height: 1.8; /* Improved line height */
+    color: #555; 
+    font-size: 1.3em; /* Increased font size */
+}
+
+.icon-container {
+    text-align: center; 
+    margin-bottom: 30px; /* Increased margin */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; 
+    margin-top: 40px; /* Increased margin */
+}
+
+.social-icon {
+    margin: 0 20px; /* Increased space between icons */
+    color: #3498db; 
+    transition: color 0.3s; 
+}
+
+.social-icon:hover {
+    color: #e74c3c; 
+}

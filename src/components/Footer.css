@@ -1,0 +1,32 @@
+/* footer.css */
+
+/* Reset margin and padding for the entire document */
+* {
+    box-sizing: border-box; /* Ensure padding and borders are included in element's total width and height */
+}
+
+html, body {
+    height: 100%; /* Full height for html and body */
+    margin: 0; /* Remove default margin */
+}
+
+/* Background color for the body */
+body {
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+    background-color: rgb(26, 50, 95); /* Set background color for the entire body */
+}
+
+/* Make main content area grow to push footer down */
+.main-content {
+    flex: 1; /* Allows the main content to grow and occupy available space */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    text-align: center; /* Center text */
+    padding: 10px 0; /* Vertical padding */
+    width: 100%; /* Full width of the page */
+}
